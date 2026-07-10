@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aether design system (DESIGN.md) — Night / OLED palette -->
+    <color name="surface">#131313</color>
+    <color name="surface_container_lowest">#0E0E0E</color>
+    <color name="surface_container_low">#1C1B1B</color>
+    <color name="surface_container">#201F1F</color>
+    <color name="surface_container_high">#2A2A2A</color>
+    <color name="surface_container_highest">#353534</color>
+    <color name="on_surface">#E5E2E1</color>
+    <color name="on_surface_variant">#C4C7C8</color>
+    <color name="outline">#8E9192</color>
+    <color name="outline_variant">#444748</color>
+    <color name="primary">#FEFEFE</color>
+    <color name="on_primary">#2F3131</color>
+    <color name="aether_accent">#FFDB3C</color>
+    <color name="on_accent">#3A3000</color>
+    <color name="tertiary_container">#D1E2FF</color>
+    <color name="on_tertiary_container">#0165B4</color>
+    <color name="error">#FFB4AB</color>
+    <color name="priority_high">#FFB4AB</color>
+    <color name="glass_stroke">#1AFFFFFF</color>
+    <color name="glass_fill">#CC201F1F</color>
+
+    <!-- Map accents: azure route/puck (yellow reads poorly on map tiles) -->
+    <color name="route_line">#3E8BFF</color>
+    <color name="route_casing">#0A1A33</color>
+</resources>

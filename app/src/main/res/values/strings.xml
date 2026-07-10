@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aether</string>
+    <string name="search_hint">Where are you going?</string>
+    <string name="explore">Explore</string>
+    <string name="route">Route</string>
+    <string name="assistant">Assistant</string>
+    <string name="packing">Packing</string>
+    <string name="timeline">Timeline</string>
+    <string name="start_journey">Start Journey</string>
+    <string name="stop_navigation">End</string>
+    <string name="todays_insight">TODAY\'S INSIGHT</string>
+    <string name="route_no_destination">Search a destination on the Explore tab first.</string>
+    <string name="route_error">Could not calculate the route. Check your connection.</string>
+    <string name="nav_arrived">You have arrived 🎉</string>
+    <string name="nav_rerouting">Recalculating route…</string>
+    <string name="packing_empty">Plan a journey and Aether will pack for you.</string>
+    <string name="timeline_empty">Completed journeys will appear here.</string>
+    <string name="total_distance">TOTAL DISTANCE</string>
+    <string name="journeys">JOURNEYS</string>
+</resources>

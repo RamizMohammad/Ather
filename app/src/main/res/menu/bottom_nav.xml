@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_explore" android:icon="@drawable/ic_explore" android:title="@string/explore" />
+    <item android:id="@+id/nav_route" android:icon="@drawable/ic_route" android:title="@string/route" />
+    <item android:id="@+id/nav_assistant" android:icon="@drawable/ic_assistant" android:title="@string/assistant" />
+    <item android:id="@+id/nav_packing" android:icon="@drawable/ic_packing" android:title="@string/packing" />
+    <item android:id="@+id/nav_timeline" android:icon="@drawable/ic_timeline" android:title="@string/timeline" />
+</menu>

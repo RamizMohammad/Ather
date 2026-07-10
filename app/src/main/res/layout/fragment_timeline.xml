@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_glass_card"
+        android:orientation="horizontal"
+        android:padding="24dp">
+
+        <LinearLayout style="@style/RouteStatColumn">
+            <TextView android:id="@+id/text_total_distance" style="@style/RouteStatValue" android:text="0 m" />
+            <TextView style="@style/RouteStatLabel" android:text="@string/total_distance" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/RouteStatColumn">
+            <TextView android:id="@+id/text_total_journeys" style="@style/RouteStatValue" android:text="0" />
+            <TextView style="@style/RouteStatLabel" android:text="@string/journeys" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/button_settings"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_glass_chip"
+            android:contentDescription="Settings"
+            android:src="@drawable/ic_settings" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/text_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/timeline_empty"
+            android:textColor="@color/outline"
+            android:textSize="16sp" />
+    </FrameLayout>
+</LinearLayout>

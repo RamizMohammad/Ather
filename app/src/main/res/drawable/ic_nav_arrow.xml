@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="34dp"
+    android:height="34dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Navigation puck: dark disc + azure heading arrow (points up = travel direction) -->
+    <path
+        android:fillColor="#3E8BFF"
+        android:pathData="M12,12m-11,0a11,11 0 1,0 22,0a11,11 0 1,0 -22,0" />
+    <path
+        android:fillColor="#131313"
+        android:pathData="M12,12m-9.5,0a9.5,9.5 0 1,0 19,0a9.5,9.5 0 1,0 -19,0" />
+    <path
+        android:fillColor="#3E8BFF"
+        android:pathData="M12,4.5L17.5,17L12,14.2L6.5,17L12,4.5z" />
+</vector>
