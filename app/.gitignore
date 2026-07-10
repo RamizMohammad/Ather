@@ -1,1 +1,4 @@
 /build
+
+*.a.conf
+*.a.olf
